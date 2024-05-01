@@ -1,0 +1,19 @@
+{
+  "name": "crudapi",
+  "version": "1.0.0",
+  "description": "crud api using node js, express and mongodb",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "dk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.3",
+    "nodemon": "^3.1.0"
+  }
+}
